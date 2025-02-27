@@ -1,63 +1,98 @@
-
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
 
 <head>
   <meta charset="utf-8">
-  <title>Roberto's personal site</title>
-  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roberto's Personal Site</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <table cellspacing="20">
-    <tr>
-      <td><img src="Images\Roberto.png" alt="Roberto Teran Perez profile picture"></td>
-      <td><h1>Roberto Teran</h1>
-      <p><em>Creator of this <strong>webpage<strong />.<em /></p>
-      <p>I'm a web developer and investor enthusiast. I like to code.</p>
-      <p><strong><a href="https://www.instagram.com/robertoteran999/">Instagram</a></strong></p></td>
-    </tr>
-  </table>
+  <header>
+    <section id="profile">
+      <img src="Images/me.jpg" alt="Roberto Teran profile picture">
+      <h1>Roberto Teran</h1>
+      <p>
+        I am Roberto, a tech enthusiast with a passion for <strong>system administration, support, and software development</strong>. With a strong background in <strong>troubleshooting and IT support</strong>, I bring hands-on experience in solving technical challenges efficiently. I'm also expanding my expertise in backend <strong>development with JavaScript, Python, and C#</strong>, while exploring <strong>low-level programming with C</strong> to deepen my understanding of system internals. My industry certifications validate my technical skills, ensuring I can tackle real-world IT and development tasks with confidence.
+      </p>
+    </section>
+  </header>
 
+  <main>
+    <section id="contact">
+      <a href="Contact-me.html">Contact Me</a>
+    </section>
 
-  <a href="Contact-me.html">Contact me</a>
-  <hr>
-  <h3>Education and skills</h3>
-  <ul>
-    <li>American University: cybersecurity program.</li>
-  </ul>
-  <h3>My hobbies</h3>
-  <ol>
-    <li>Reading</li>
-    <li>Listening to music</li>
-    <li>Self improvement</li></ol>
-    <h3>Certificates</h3>
-    <p>CompTIA Security+, Network+, Linux</p>
-    <table cellspacing="5">
-      <tr>
-        <td>knowledge in windows server OS</td>
-      <tr>
-      <td>knowledge in cloud technology</td>
-      </tr>
-      </tr>
-    </table>
-    <hr>
-    <h3>Skills</h3>
-    <table>
-      <tr>
-        <td>Linux OS</td>
-        <td>⭐⭐⭐⭐⭐</td>
-      </tr>
-      <tr>
-        <td>Windows OS</td>
-        <td>⭐⭐⭐⭐⭐</td>
-      </tr>
-      <tr>
-        <td>Networking</td>
-        <td>⭐⭐⭐⭐⭐</td>
-      </tr>
+    <section id="education-skills">
+      <h2>Education and Skills</h2>
+      <ul>
+        <li>Western Governors University - Bachelors of Science in Cloud Computing. (February 2025)</li>
+        <li>American University - Cybersecurity Program Certificate. (February 2023)</li>
+      </ul>
+    </section>
 
-    </table>
+    <section id="certifications">
+      <h3>Certifications</h3>
+      <ul>
+        <li><strong><a href="https://www.credly.com/badges/ace56c05-7af8-4096-a1ca-2fa29e1e5d7e/linked_in_profile" target="_blank">CompTIA Security+ Certification</a></strong> | CompTIA</li>
+        <li><strong>CompTIA Cloud+ Certification</strong> | CompTIA</li>
+        <li><strong><a href="https://www.credly.com/badges/c800d390-bd64-43f0-b415-8667154bf9f4/linked_in_profile" target="_blank">CompTIA Network+ Certification</a></strong> | CompTIA</li>
+        <li><strong><a href="https://www.credly.com/badges/f814cc03-34b6-4aee-bddf-decf0c47b649/linked_in_profile" target="_blank">CompTIA A+ Certification</a></strong> | CompTIA</li>
+        <li><strong><a href="https://cs.lpi.org/caf/Xamman/certification/verify/LPI000618000/9up7rydbsd" target="_blank">LPI Linux Essentials Certification</a></strong> | Linux Professional Institute</li>
+        <li><strong>Microsoft Certified: Azure Fundamentals</strong> | Microsoft</li>
+        <li><strong><a href="https://aws.amazon.com/verification" target="_blank">AWS Cloud Practitioner Certification</a></strong> | Amazon Web Services</li>
+        <li><strong>ITIL4 Certification</strong> | Axelos Global Best Practice</li>
+      </ul>
+    </section>
 
+    <section id="projects">
+      <h3>Projects</h3>
+      <div>
+        <h4>VirtualBox Environment with Domain and File Sharing</h4>
+        <p>
+          I created a VirtualBox environment where I connected client Windows 10 computers to a Windows Server 2019, adding them to a domain after configuring Domain Services. I set up a shared folder that client computers could access and configured necessary Group Policies and Active Directory objects to manage the environment.
+        </p>
+      </div>
+
+      <div>
+        <h4>Restore-AD.ps1 Script for Active Directory Object Restoration</h4>
+        <p>
+          I developed a PowerShell script, <strong><a href="https://github.com/roberto01110100/Powershell/blob/main/Restore-AD.ps1" target="_blank">Restore-AD.ps1</a></strong>, which automates the restoration of Active Directory objects and users from a CSV file. This project demonstrates my ability to create and implement PowerShell scripts for system administration tasks.
+        </p>
+        <a href="https://github.com/roberto01110100/Powershell/blob/main/Restore-AD.ps1" target="_blank">
+          <button>View Project</button>
+        </a>
+      </div>
+
+      <div>
+        <h4>Networking Project at American University</h4>
+        <p>
+          In this project, I divided the 172.16.10.0/24 network into eight subnets using a /27 subnet mask. The subnets were assigned to different office departments, and VLANs were configured for management, marketing, accounting, and native purposes. I set up trunking between switches, configured inter-VLAN routing on routers, and implemented port security on access ports. 
+        </p>
+        <p>
+          Additionally, I enabled OSPF for dynamic routing across routers, created and applied access control lists (ACLs) to restrict unauthorized access, and configured network devices with secure authentication and encrypted passwords. Remote administration was enabled via SSHv2 to ensure secure access to network devices.
+        </p>
+        <a href="https://roberto01110100.github.io/NetworkConfigurationPage/" target="_blank">
+          <button>View Project</button>
+        </a>
+      </div>
+    </section>
+
+    <section id="hobbies">
+      <h3>Hobbies & Interests</h3>
+      <ul>
+        <li>📚 Reading about the economy and stock market trends.</li>
+        <li>♟️ Playing Chess—constantly improving my strategy and skills.</li>
+        <li>🏋️ Exercising to stay active and healthy.</li>
+        <li>🎵 Exploring Music—from pop to heavy metal, always discovering new sounds.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer style="text-align: center; padding: 20px; background-color: #333; color: white;">
+    <p>Contact me: <a href="mailto:your.email@example.com" style="color: #4CAF50;">your.email@example.com</a></p>
+  </footer>
 
 </body>
 
