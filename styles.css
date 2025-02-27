@@ -1,0 +1,235 @@
+/* General body styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f7f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+/* Header Section */
+header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 36px;
+  margin: 10px 0;
+  font-weight: 700;
+}
+
+header img {
+  width: 250px;  /* Increase the width */
+  height: 250px; /* Increase the height to match the width for a circular image */
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+header p {
+  font-size: 18px;
+  color: #ecf0f1;
+  margin: 10px 0;
+}
+
+/* Main Content Section */
+main {
+  padding: 40px 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Styling */
+section {
+  margin-bottom: 40px;
+}
+
+section h2, section h3 {
+  color: #34495e;
+  margin-bottom: 15px;
+  font-size: 28px;
+  font-weight: 600;
+  border-bottom: 2px solid #4CAF50;
+  padding-bottom: 5px;
+}
+
+section h4 {
+  color: #2c3e50;
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+/* Text and List Styling */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+ul li {
+  font-size: 18px;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+ul li a {
+  color: #4CAF50;
+  font-weight: 600;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Certifications Section */
+#certifications {
+  background-color: #4CAF50; /* Green background */
+  padding: 30px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  color: white; /* White text to contrast with green background */
+}
+
+#certifications h3 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#certifications ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+#certifications li {
+  padding: 12px;
+  border-bottom: 1px solid white; /* Subtle divider between items */
+}
+
+#certifications li:last-child {
+  border-bottom: none; /* No bottom border on the last item */
+}
+
+#certifications li a {
+  color: white; /* White text for the links */
+  font-weight: bold;
+  text-decoration: none; /* Remove underline */
+}
+
+#certifications li a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+#certifications li span {
+  color: #dcdcdc; /* Light gray for the certifying organization */
+  font-size: 16px;
+}
+
+
+/* Projects Section */
+#projects div {
+  background-color: #f9f9f9;
+  border-left: 5px solid #4CAF50;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+#projects div h4 {
+  margin-top: 0;
+}
+
+#projects div p {
+  color: #666;
+  font-size: 16px;
+}
+
+/* Hobbies Section */
+#hobbies ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#hobbies li {
+  font-size: 18px;
+  margin: 12px 0;
+  line-height: 1.6;
+}
+
+/* Footer Section */
+footer {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 16px;
+}
+
+footer a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Button Styling */
+/* Button Styling */
+button, a {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 20px;  /* Reduced padding */
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;  /* Slightly smaller font size */
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+button:hover, a:hover {
+  background-color: #45a049;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header {
+    padding: 20px;
+  }
+
+  header h1 {
+    font-size: 28px;
+  }
+
+  main {
+    padding: 20px;
+  }
+
+  section {
+    margin-bottom: 30px;
+  }
+
+  ul li {
+    font-size: 16px;
+  }
+}
+
+  
